@@ -103,7 +103,29 @@ a {
     font-weight: 500;
 }
 
-/* Header */
+.title-module::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: -44px;
+    width: 25px;
+    height: 2px;
+    background-color: var(--heading-primary-color);
+}
+
+.heading-module::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    right: 107px;
+    width: 66px;
+    height: 2px;
+    background-color: var(--heading-primary-color);
+}
+
+/* ========== Header ========== */
 header {
     padding: 28px 0 0px;
     background: #fff;
@@ -393,38 +415,16 @@ header {
     justify-content: space-between;
 }
 
-.service_title.title-module {
+.title-module {
     display: inline-block;
     margin: 0 0 12px 46px;
     position: relative;
     color: var(--heading-primary-color);
 }
 
-.service_title::before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 9px;
-    left: -44px;
-    width: 25px;
-    height: 2px;
-    background-color: var(--heading-primary-color);
-}
-
 .service-heading.heading-module {
     width: 520px;
     position: relative;
-}
-
-.service-heading.heading-module::after {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 80px;
-    right: 107px;
-    width: 66px;
-    height: 2px;
-    background-color: var(--heading-primary-color);
 }
 
 .service-lb-control-btn {
@@ -517,3 +517,5 @@ header {
 .member-it__desc {
     margin-top: 18px;
 }
+
+/* ========== ABOUT ========== */
