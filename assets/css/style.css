@@ -545,7 +545,6 @@ header {
     gap: 21px;
 }
 
-
 .about-thumb:first-child {
     margin-top: 77px;
 }
@@ -663,12 +662,12 @@ header {
     content: "";
     display: inline-block;
     position: absolute;
-    left: 2px;    
+    left: 2px;
     top: -12px;
     width: 5px;
     height: 5px;
     background-color: var(---bgcolor-master-3c);
-    border: 5px solid #EAEAEA;
+    border: 5px solid #eaeaea;
     border-radius: 50%;
 }
 
@@ -705,4 +704,89 @@ header {
     top: -40px;
     left: -40px;
     transform: rotate(22deg);
+}
+
+/* ========== Process ========== */
+.process {
+    margin-top: 79px;
+}
+
+.process-heading {
+    width: 486px;
+}
+
+.process-content {
+    margin-top: 81px;
+}
+
+.process-step {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 185px;
+    background-color: #fff;
+    border-bottom: 1px solid var(---bgcolor-master-3c);
+    transition: all 0.4s;
+}
+
+.process-step:hover {
+    background-color: var(--bgcolor-secon-df);
+    border-radius: 33px;
+    border-bottom: 1px solid var(--bgcolor-secon-df);
+}
+
+.process-step:hover .pro-learn-more {
+    visibility: visible;
+}
+
+.process-step:hover .process-st-heading,
+.process-step:hover .pro-learn-more {
+    transform: translateY(-18px);
+}
+
+.prces-number {
+    margin-left: 30px;
+    display: inline-block;
+    color: var(---bgcolor-master-3c, #143c3c);
+    font-family: Poppins;
+    font-size: 7.2rem;
+    font-weight: 600;
+}
+
+.prot-step-sbtile-wrap {
+    flex-shrink: 0;
+    margin-left: 64px;
+    padding-top: 44px;
+}
+
+.process-st-heading {
+    transition: all 0.6s;
+}
+
+.pro-learn-more {
+    display: block;
+    margin-top: 22px;
+    font-size: 1.8rem;
+    line-height: 1;
+    text-decoration: underline;
+    color: var(--text-color-black-gray);
+    visibility: hidden;
+    transition: all 0.2s;
+}
+
+.prces-st1-media {
+    margin-left: 380px;
+}
+
+.prces-st1-ig {
+    margin-top: -58%;
+    display: block;
+    max-width: 450px;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.prces-st-desc {
+    margin-left: 175px;
+    width: 572px;
 }
