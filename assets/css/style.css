@@ -790,3 +790,64 @@ header {
     margin-left: 175px;
     width: 572px;
 }
+
+/* ========== Experience ========== */
+.experience {
+    margin-top: 148px;
+    padding: 116px 0 63px;
+    background: var(---bgcolor-master-3c);
+}
+
+.exp-label {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 93px;
+}
+
+.exp-heading {
+    max-width: 457px;
+}
+
+.exp-heading {
+    color: #E7F9F9;
+}
+
+.exp-heading.heading-module__line::after {
+    background: #83A17D;
+}
+
+.exp-desc.desc-lv0 {
+    color: #6A8383;
+}
+
+.browse-project {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+
+.browse-text:hover {
+    text-decoration: underline;
+}
+
+.browse-text.desc-lv0 {
+    color: #fff;
+}
+
+.ex-icon-arrowleft {
+    color: #80A07B;
+    transition: all 0.3s;
+}
+
+.ex-icon-arrowleft:hover {
+    color: #fff;
+}
+
+.experience-media {
+    margin-top: 65px;
+    border-radius: 22px;
+    overflow: hidden;
+}
